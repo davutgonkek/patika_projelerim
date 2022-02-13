@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background: #f39c12;
+}
+
+
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 limportant;
+    background: #2c3e50;
+    background-image: none;
+}
+
+select::-ms-expand{
+    display: none;
+}
+
+select::after{
+   content: '/25BC';
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 0 lem;
+   background: #34495e;
+   cursor: pointer;
+   pointer-events: none;
+   -webkit-transition: .25s all ease;
+   -o-transition: .25s all ease;
+   transition: .25s all ease;
+}
+
+.select:hover::after{
+   color: #f39c12;
+}
+
+select{
+    flex: 1;
+    padding: 0 5em;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.select {
+    position: absolute;
+    
+    top: 120px;
+    display: flex;
+    width: 40em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+}
+
+.select2 {
+    position: absolute;
+    
+    top: 290px;
+    display: flex;
+    width: 40em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+}
+
+
+.select3 {
+    position: absolute;
+    
+    top: 450px;
+    display: flex;
+    width: 40em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+}
+
+
+
+
+.navbar a{
+    font-family: rowdies;
+    font-size: x-large;
+    
+
+}
